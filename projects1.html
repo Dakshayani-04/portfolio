@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Projects - Your Portfolio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #fafafa;
+      color: #333;
+    }
+
+    header {
+      background: #e6f0ff;
+      padding: 20px 40px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 1.8rem;
+    }
+
+    nav a {
+      margin-left: 20px;
+      text-decoration: none;
+      color: #0056b3;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    main {
+      padding: 40px;
+    }
+
+    h2 {
+      text-align: center;
+      font-size: 2rem;
+      margin-bottom: 40px;
+    }
+
+    .project {
+      background: #ffffff;
+      border: 1px solid #ddd;
+      padding: 25px;
+      border-radius: 10px;
+      margin-bottom: 25px;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s ease, box-shadow 0.2s ease;
+      cursor: pointer;
+      text-decoration: none;
+      display: block;
+      color: inherit;
+    }
+
+    .project:hover {
+      transform: scale(1.02);
+      box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+      background: #f0f8ff;
+    }
+
+    .project h3 {
+      margin-top: 0;
+      color: #0077cc;
+    }
+
+    .project p {
+      font-size: 1rem;
+      color: #555;
+    }
+
+    footer {
+      background: #e6f0ff;
+      text-align: center;
+      padding: 15px;
+      margin-top: 40px;
+      font-size: 0.95rem;
+    }
+
+    @media (max-width: 768px) {
+      nav {
+        text-align: center;
+        margin-top: 10px;
+      }
+      nav a {
+        display: inline-block;
+        margin: 10px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Your Name</h1>
+    <nav>
+      <a href="main.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects1.html">Projects</a>
+      <a href="skills.html">Skills</a>
+      <a href="education.html">Education</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>My Projects</h2>
+
+    <a href="main.html" class="project" target="_blank">
+      <h3>Portfolio Website</h3>
+      <p>Created a responsive personal portfolio using HTML, CSS, and JavaScript with navigation to showcase bio, skills, and contact details.</p>
+    </a>
+
+    <a href="welcome.html" class="project" target="_blank">
+      <h3>youNique care </h3>
+      <p>personalized wellness platform dedicated to providing tailored health solutions that fit your unique lifestyle and needs.</p>
+    </a>
+
+    <!-- <a href="markdown-blog.html" class="project" target="_blank">
+      <h3>Markdown Blog with Admin Panel</h3>
+      <p>Developed a Node.js-powered blog platform with login, Markdown rendering, and post management features.</p>
+    </a>
+
+    <a href="wellness-portal.html" class="project" target="_blank">
+      <h3>Wellness Portal UI</h3>
+      <p>Front-end of a soft pink themed login/signup portal for a wellness brand, built using HTML/CSS with responsive layouts.</p>
+    </a> -->
+  </main>
+
+  <footer>
+    © 2025  All rights reserved.
+  </footer>
+
+</body>
+</html>
